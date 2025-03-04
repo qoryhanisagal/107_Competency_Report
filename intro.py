@@ -43,8 +43,6 @@ print(type(num))# covert the number to a float
 print(int(num))# 9 converts the number to an integer
 print(type(int(num))) # convert the number to a string
 print(float(int(num))) # convert the number to a float
-num = 9
-
 print(str(num)) #converts the number to a string
 print(type(str(num))) # covert the number to a string
 print(float(num)) #converts the number to a float
@@ -56,8 +54,6 @@ print(float(price)) #converts the string to a float
 print(type(float(price))) #cover the string to a float
 print(int(float(price))) #converts the string to an integer
 print(type(int(float(price)))) #converts the string to an integer
-print(int(price)) #converts the string to an integer
-print(type(int(price))) #converts the string to an integer
 
 # ===== CHALLENGE =====
 # Create some variables called: name, age, height, and city, show them in a print statement
@@ -144,7 +140,16 @@ print(5 // 2) # Floor division is a normal division operation except that it ret
 # ====== LOGICAL OPERATORS =====
 # Logical operators are used to combine conditional statements
 # Logical operators are used to combine conditional statements and return a boolean value
+x = 5
+y =10
 
+print(x > 3 and x < 10) # and operator returns True if both statements are true
+# and operator returns True if both statements are true
+# and operator returns False if one of the statements is false
+print(x > 3 or x < 15) # or operator returns True if one of the statements is true
+# or operator returns True if one of the statements is true
+# or operator returns False if both statements are false
+print(not(x > 3 and x < 10)) # not operator returns False if the result is true
 
 # ====== COMPARISON OPERATORS =====
 # Comparison operators are used to compare two values
